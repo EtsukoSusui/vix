@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAPL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <div id="current-value"></div>
+    <div id="profit"></div>
+    <div id="time"></div>
+    <div id="container" style="width: 684px; height: 276px;"></div>
+    <div class="status">
+        <sapn>Open</sapn> <sapn id="open"></sapn> 
+        <sapn>Low</sapn> <sapn id="low"></sapn> 
+        <sapn>High</sapn> <sapn id="high"></sapn> 
+        <sapn>Prev close</sapn> <sapn id="prev_close"></sapn>
+        <sapn>52-wk high</sapn> <sapn id="52_wk_high"></sapn> 
+        <sapn>52-wk low</sapn> <sapn id="52_wk_low"></sapn>         
+    </div>
+
+    <script src="./AAPL.js"></script>
+</body>
+</html>
+

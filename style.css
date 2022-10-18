@@ -1,0 +1,19 @@
+#current-value{
+    font-size: 36px;
+    line-height: 24px;
+}
+
+#profit{
+    font-size: 16px;
+    color: #afecd5;
+    line-height: 24px;
+}
+
+#profit.red{
+    color: #ee6952;
+}
+
+#time{
+    font-size: 12px;
+    line-height: 24px;
+}
